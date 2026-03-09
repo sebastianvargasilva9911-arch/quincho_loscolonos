@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quincho Los Colonos</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio">Quincho Los Colonos</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menuNav"
+        aria-controls="menuNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menuNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#eventos">Eventos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="#instalaciones">Instalaciones</a></li>
+          <li class="nav-item"><a class="nav-link" href="#mapa">Mapa</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+<header id="inicio" class="hero-section">
+
+  <div class="hero-overlay"></div>
+
+  <div class="container hero-content text-center">
+
+    <span class="hero-badge hero-anim delay-1">
+      Eventos con estilo y calidez
+    </span>
+
+    <h1 class="hero-anim delay-2">
+      Quincho Los Colonos
+    </h1>
+
+    <p class="hero-anim delay-3">
+      Un espacio elegante y acogedor para matrimonios, cumpleaños,
+      comuniones, fiestas de empresa y celebraciones especiales.
+    </p>
+
+    <div class="hero-buttons hero-anim delay-4">
+      <a href=https://wa.me/56956689592?text=Hola,%20quisiera%20consultar%20por%20disponibilidad%20del%20Quincho%20Los%20Colonos%20para%20un%20evento.
+       target="_blank"
+       class="btn btn-main">
+        Reservar / Contactar
+         </a>
+
+      <a href="https://wa.me/56956689592"
+         target="_blank"
+         class="btn btn-outline-light">
+        WhatsApp
+      </a>
+    </div>
+
+  </div>
+
+</header>
+
+  <!-- INDICADOR DE SCROLL -->
+  <a href="#eventos" class="scroll-indicator">
+    <span class="mouse">
+      <span class="wheel"></span>
+    </span>
+  </a>
+
+</header>
+
+  <!-- Eventos -->
+  <section id="eventos" class="section-padding">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Eventos</h2>
+        <p>Celebraciones memorables en un entorno cómodo, amplio y atractivo.</p>
+      </div>
+
+      <div class="row g-4 mt-2">
+        <div class="col-md-6 col-lg-4">
+          <div class="info-card">
+            <h3>Tipos de eventos</h3>
+            <ul>
+              <li>Celebraciones matrimoniales</li>
+              <li>Cumpleaños</li>
+              <li>Fiesta graduación</li>
+              <li>Fiestas de empresa</li>
+              <li>San Valentín</li>
+              <li>Día del Niño</li>
+              <li>Halloween y otras festividades</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="info-card">
+            <h3>¿Qué ofrece el quincho?</h3>
+            <ul>
+              <li>Capacidad hasta 80 personas</li>
+              <li>Cancha de pasto natural</li>
+              <li>Estacionamiento privado</li>
+              <li>Parrilla y asador de alta calidad</li>
+              <li>Fogón exterior techado</li>
+              <li>Mesas, sillas y mantelería</li>
+              <li>Minibar</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-12 col-lg-4">
+          <div class="info-card">
+            <h3>Servicios extras</h3>
+            <ul>
+              <li>DJ</li>
+              <li>Máquinas arcades</li>
+              <li>Juegos de luces</li>
+              <li>Decoración según temática</li>
+            </ul>
+            <p class="small-note">
+              Servicios complementarios sujetos a coordinación previa.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+ <section id="galeria" class="section-padding section-soft">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Galería de eventos</h2>
+      <p>
+        Conoce algunas celebraciones que pueden realizarse en Quincho Los Colonos.
+      </p>
+    </div>
+
+    <div class="slider-wrapper mt-4">
+      <button class="slider-btn prev" aria-label="Deslizar izquierda">‹</button>
+
+      <div class="slider-track" id="galeriaTrack">
+        <div class="gallery-card slide-card">
+          <img src="img/matrimonio.jpg" class="lightbox-trigger" alt="Celebración matrimonial">
+          <div class="gallery-info">
+            <h4>Celebraciones matrimoniales</h4>
+            <p>Espacio ideal para matrimonios con ambientación elegante y acogedora.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card slide-card">
+          <img src="img/cumple2.jpg" class="lightbox-trigger" alt="Cumpleaños">
+          <div class="gallery-info">
+            <h4>Cumpleaños</h4>
+            <p>Un lugar perfecto para compartir cumpleaños familiares y celebraciones especiales.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card slide-card">
+          <img src="img/gala.jpg" class="lightbox-trigger" alt="Ceremonia de comunión">
+          <div class="gallery-info">
+            <h4>Ceremonia de graduación</h4>
+            <p>Ambiente cómodo y armonioso para celebrar las galas estudiantiles.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card slide-card">
+          <img src="img/empresa.jpg" class="lightbox-trigger" alt="Fiesta de empresa">
+          <div class="gallery-info">
+            <h4>Fiestas de empresa</h4>
+            <p>Espacio amplio para eventos corporativos, reuniones y celebraciones grupales.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card slide-card">
+          <img src="img/valentin.jpg" class="lightbox-trigger" alt="Evento temático Halloween">
+          <div class="gallery-info">
+            <h4>Eventos temáticos</h4>
+            <p>Decoración y ambientación adaptable para Halloween, San Valentín y otras festividades.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card slide-card">
+          <img src="img/nino.jpg" class="lightbox-trigger" alt="Día del niño">
+          <div class="gallery-info">
+            <h4>Día del niño</h4>
+            <p>Un espacio ideal para actividades familiares, juegos y celebraciones infantiles.</p>
+          </div>
+        </div>
+      </div>
+
+      <button class="slider-btn next" aria-label="Deslizar derecha">›</button>
+    </div>
+  </div>
+</section>
+
+<section id="instalaciones" class="section-padding">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Nuestros espacios</h2>
+      <p>
+        Descubre parte de las instalaciones y equipamiento disponibles para tu evento.
+      </p>
+    </div>
+
+    <div class="slider-wrapper mt-4">
+      <button class="slider-btn prev" aria-label="Deslizar izquierda">‹</button>
+
+      <div class="slider-track" id="instalacionesTrack">
+        <div class="gallery-card slide-card">
+          <img src="img/fogon.jpg" class="lightbox-trigger" alt="Fogón exterior techado">
+          <div class="gallery-info">
+            <h4>Fogón exterior techado</h4>
+            <p>Espacio cálido y acogedor para compartir en cualquier época del año.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card slide-card">
+          <img src="img/cancha.jpg" class="lightbox-trigger" alt="Cancha de pasto natural">
+          <div class="gallery-info">
+            <h4>Cancha de pasto natural</h4>
+            <p>Área al aire libre ideal para actividades recreativas y reuniones familiares.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card slide-card">
+          <img src="img/cocina.jpg" class="lightbox-trigger" alt="Cocina del quincho">
+          <div class="gallery-info">
+            <h4>Cocina</h4>
+            <p>Espacio funcional para apoyar la preparación y organización del evento.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card slide-card">
+          <img src="img/equipamiento.jpg" class="lightbox-trigger" alt="Equipamiento del quincho">
+          <div class="gallery-info">
+            <h4>Equipamiento</h4>
+            <p>Mesas, sillas, mantelería y todo lo necesario para una celebración cómoda.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card slide-card">
+          <img src="img/parrilla2.jpg" class="lightbox-trigger" alt="Parrilla y asador">
+          <div class="gallery-info">
+            <h4>Parrilla y asador</h4>
+            <p>Zona preparada para disfrutar asados y encuentros especiales.</p>
+          </div>
+        </div>
+
+        <div class="gallery-card slide-card">
+          <img src="img/minbar.jpg" class="lightbox-trigger" alt="Minibar">
+          <div class="gallery-info">
+            <h4>Minibar</h4>
+            <p>Un complemento atractivo para dar un mejor ambiente a la celebración.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <button class="slider-btn next" aria-label="Deslizar derecha">›</button>
+    </div>
+  </div>
+</section>
+
+  <!-- Mapa -->
+  <section id="mapa" class="section-padding">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Ubicación</h2>
+        <p>Encuéntranos en Chinchin Grande, Villa Los Colonos #30 - Sector Cardonal.</p>
+      </div>
+
+      <div class="map-wrapper mt-4">
+        <iframe
+          src="https://www.google.com/maps?q=Chinchin%20Grande%20Villa%20Los%20Colonos%2030%20Sector%20Cardonal&output=embed"
+          width="100%"
+          height="420"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="section-padding section-soft">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Contacto</h2>
+        <p>Reserva tu fecha o consulta disponibilidad.</p>
+      </div>
+
+      <div class="row justify-content-center mt-4">
+        <div class="col-lg-8">
+          <div class="contact-box">
+            <div class="row g-4">
+              <div class="col-md-6">
+                <div class="contact-item">
+                  <h4>Teléfono / WhatsApp</h4>
+                  <p><a href="https://wa.me/56956689592" target="_blank">+56 9 5668 9592</a></p>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="contact-item">
+                  <h4>Correo</h4>
+                  <p><a href="mailto:nelsonsandoval.8.8.1968@gmail.com">nelsonsandoval.8.8.1968@gmail.com</a></p>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="contact-item">
+                  <h4>Dirección</h4>
+                  <p>Chinchin Grande, Villa Los Colonos #30 - Sector Cardonal</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-center mt-4">
+              <a href="https://wa.me/56956689592" target="_blank" class="btn btn-whatsapp">
+                Contactar por WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Botón flotante WhatsApp -->
+   <a href="https://wa.me/56956689592" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="28" height="28" fill="white">
+  <path d="M16 .4C7.4.4.4 7.3.4 15.9c0 2.8.7 5.5 2.1 7.9L.2 31.6l7.9-2.1c2.3 1.3 4.9 2 7.6 2 8.6 0 15.6-7 15.6-15.6S24.6.4 16 .4zm0 28.6c-2.4 0-4.8-.6-6.8-1.8l-.5-.3-4.7 1.3 1.3-4.6-.3-.5c-1.2-2-1.8-4.3-1.8-6.7 0-7.1 5.7-12.8 12.8-12.8s12.8 5.7 12.8 12.8S23.1 29 16 29zm7-9.6c-.4-.2-2.4-1.2-2.7-1.3-.4-.1-.6-.2-.9.2s-1 1.3-1.2 1.5c-.2.2-.4.3-.8.1-.4-.2-1.7-.6-3.2-2-1.2-1.1-2-2.5-2.2-2.9-.2-.4 0-.6.2-.8.2-.2.4-.4.6-.6.2-.2.2-.4.3-.6.1-.2 0-.5 0-.7 0-.2-.9-2.2-1.3-3-.3-.8-.6-.7-.9-.7h-.7c-.2 0-.6.1-.9.4-.3.4-1.2 1.2-1.2 3s1.3 3.5 1.5 3.7c.2.2 2.6 4 6.4 5.6.9.4 1.6.6 2.2.8.9.3 1.7.3 2.3.2.7-.1 2.4-1 2.7-2 .3-1 .3-1.9.2-2.1-.1-.2-.3-.3-.7-.5z"/>
+  </svg>
+
+</a>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <p class="mb-0">© 2026 Quincho Los Colonos - Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close">&times;</span>
+  <img id="lightbox-img" src="" alt="">
+  
+</div>
+</body>
+</html>
